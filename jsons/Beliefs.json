@@ -63,5 +63,26 @@
         "uniques": ["[+100]% Natural religion spread [in all cities]","[-80]% [Happiness] from every follower, up to [-20]% <when not at war>",
                     "[+1 Gold] [in all cities]","[-1 Food, -5 Production, +1 Gold, +2 Culture] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
                     "[+2 Faith] [in all cities] <during a Golden Age>","[-2 Happiness, -3 Faith] from every [Dyes]","[-8 Food, -7 Culture] from every [Crab]"]
+    },
+//Removed//
+{
+        "name": "Cathedrals",
+        "type": "Follower",
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+    },
+	{
+        "name": "Monasteries",
+        "type": "Follower",
+        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+    },
+    {
+        "name": "Mosques",
+        "type": "Follower",
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+    },
+    {
+        "name": "Pagodas",
+        "type": "Follower",
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
     }
   ]
