@@ -58,7 +58,7 @@
                     "[+1 Culture] per [3] population [in all cities]", "[+1 Culture] from all [Faith] buildings <in cities with at least [5] [Followers of this Religion]>"]
     },
 	{
-        "name": "Hedonism-Nihilism",
+        "name": "Icon de Hedo-Nihilism",
         "type": "Pantheon",
         "uniques": ["[+100]% Natural religion spread [in all cities]","[-80]% [Happiness] from every follower, up to [-20]% <when not at war>",
                     "[+1 Gold] [in all cities]","[-1 Food, -5 Production, +1 Gold, +2 Culture] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
