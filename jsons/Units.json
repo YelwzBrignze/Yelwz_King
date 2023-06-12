@@ -1,0 +1,165 @@
+[
+	{
+		"name": "Saludo Twin Princesses",
+		"unitType": "Ranged Hero",
+		"uniqueTo": "Salumi",
+		"strength": 40,
+		"rangedStrength": 20,
+		"uniques": ["Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 18
+	},
+	{
+		"name": "Matriarch Queen Saldrigal",
+		"unitType": "Hero",
+		"uniqueTo": "Salumi",
+		"strength": 60,
+		"uniques": ["Can start an [22]-turn golden age", "Can construct [Holy Place] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
+			"May enter foreign tiles without open borders", "[+1] Sight", "Great Person - [Faith]", 
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", "Unbuildable", "Uncapturable",
+			"Takes your religion over the one in their birth city"],
+		"movement": 20,
+		"religiousStrength": 1000
+	},
+	{
+	  	"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniqueTo": "Salumi",
+		"uniques": ["Can start an [8]-turn golden age",
+			"Can construct [Oracle]",
+			"Can construct [Citadel]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"],
+		"movement": 3
+	},
+	{
+		"name": "Raymond Sheen Caballero",
+		"uniqueTo": "Colziand"
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 80,
+		"interceptRange": 2,
+		"uniques": ["Limited to [3] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
+	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+	
+		"requiredTech": "Steel",
+		"promotions": ["Great Generals II","March","Ambush I"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
+{
+		"name": "Knivex",
+		"uniqueTo": "Colziand"
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 60,
+		"interceptRange": 1,
+		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+	
+		"requiredTech": "Steel",
+		"promotions": ["Drill III","Formation II","Cover II"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
+{
+		"name": "Pillager",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 14,
+		"rangedStrength": 15,
+		"replaces": "Crossbowman",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Vindicator",
+		"unitType": "Sword",
+		"replaces": "Berserker",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+{
+		"name": "Royalloom Kingsman",
+		"rangedStrength": 50,
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 50,
+		"interceptRange": 3,
+		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+	
+		"requiredTech": "Education",
+		"promotions": ["Great Generals I","Logistics","Cover I"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
+   /* Super Unit */
+   
+   {
+		"name": "Superior-Mech III",
+		"unitType": "Armored",
+		"movement": 7,
+		"strength": 20,
+		"cost": 10000,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Scouting I", "Scouting II", "Scouting III", "Survivalism I", "Survivalism II", "Survivalism III", "Boarding Party I", "Boarding Party II",
+		"Boarding Party III", "Coastal Raider I", "Coastal Raider II", "Coastal Raider III", "Landing Party", "Supply", "Siege I", "Siege II", "Siege III", "Sortie",
+		"Air Targeting I", "Air Targeting II", "Operational Range", "Logistics", "Great Generals II", "Home Sweet Home", "Ignore terrain cost", "Quick Study"]
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Silver-Mech II",
+		"unitType": "Fighter",
+		"movement": 5,
+		"strength": 17,/*75alsodown*/
+		"rangedStrength": 17,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 7500,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["Shock I", "Shock II", "Shock III", "Drill I", "Drill II", "Drill III", "Charge", "Besiege", "Formation I","Formation II", "Blitz", "Woodsman",
+		"Amphibious", "Medic", "Medic II", "Evasion", "Interception I", "Interception II", "Interception III", "Dogfighting I", "Dogfighting II", "Dogfighting III",
+		"Air Repair", "Mobility I", "Mobility II", "March", "Sentry", "Ambush II", "Bombardment I", "Bombardment II", "Bombardment III", "Morale", "Great Generals I"]
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Sly-Mech I",
+		"unitType": "Melee",
+		"movement": 5,
+		"strength": 15,
+		"cost": 5000,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Accuracy I", "Accuracy II", "Accuracy III", "Barrage I", "Barrage II", "Barrage III", "Volley", "Extended Range", "Indirect Fire", "Targeting I",
+		"Targeting II", "Targeting III", "Armor Plating I", "Armor Plating II", "Armor Plating III", "Flight Deck I", "Flight Deck II", "Flight Deck III", 
+		"Anti-Armor I", "Anti-Armor II", "Mobility", "Cover I", "Cover II", "Ambush I", "Rejuvenation", "Pictish Courage", "Slinger Withdraw", "Haka War Dance"]
+		"attackSound": "tankshot"
+	}
+]

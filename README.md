@@ -1,2 +1,3 @@
-# Colziand_Brignze
-Colziand Brignze is an ultimate mod of ColziandKing and YelwzBrignze with music and displays.
+# RSCiv-Collection
+Fullysia - Amethyst Mines grants Gems
+Suzainswellia - Boswellia Farm grants Incense
