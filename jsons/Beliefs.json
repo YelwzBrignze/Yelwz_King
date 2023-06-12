@@ -1,13 +1,13 @@
 [
   {
-        "name": "Faith Improvement",
+        "name": "Improvements of Faith",
         "type": "Pantheon",
         "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Moai] tiles [in all cities]",
 		    "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Terrace farm] tiles [in all cities]",
 		   "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Polder] tiles [in all cities]"]
     },
   {
-        "name": "Community Faith",
+        "name": "Community of Faith",
         "type": "Pantheon",
         "uniques": ["[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Idendo] tiles [in all cities]",
 		    "[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Food, +1 Production, +1 Happiness] from [Kampung] tiles [in all cities]",
@@ -17,5 +17,51 @@
         "name": "Harmony",
         "type": "Follower",
         "uniques": ["[+1 Food, +1 Science, +1 Culture] [in this city]"]
+    },
+	{
+    "name": "Polytheism",
+    "type": "Pantheon",
+    "uniques": [
+      "[+25]% Natural religion spread [in all cities]","Religion naturally spreads to cities [+3] tiles away",
+      "[+2 Gold, +2 Faith] from each Trade Route","[+2 Faith, +2 Culture] from every [Shrine]"
+    ]
+  },
+	{
+        "name": "Liturgical Chanting",
+        "type": "Follower",
+        "uniques": ["[+2 Culture, +1 Happiness] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
+                    "[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [9] [Followers of this Religion]>",
+		    "May choose [1] additional belief(s) of any type when [enhancing] a religion"]
+    },
+	{
+        "name": "Work Ethic",
+        "type": "Enhancer"
+        "uniques": ["[+2 Production, +1 Gold] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
+  "May buy [Worker] units with [Faith] for [2] times their normal Production cost <in cities with at least [5] [Followers of this Religion]>"]
+    },
+	{
+        "name": "Autocephalous Communion",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+20]",
+                    "[+1 Happiness, +1 Culture] from every [Shrine] <in cities where this religion has at least [3] followers>"]
+    },
+	{
+        "name": "Apostolic Succession",
+        "type": "Founder",
+        "uniques": ["[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [7] [Followers of this Religion]>",
+                    "May choose [1] additional belief(s) of any type when [enhancing] a religion"]
+    },
+	{
+        "name": "Holy Iconography",
+        "type": "Follower",
+        "uniques": ["[+2 Gold, +2 Culture, +1 Faith] from every [Dyes]","[+2 Gold, +2 Culture, +2 Faith] from every [Incense]",
+                    "[+1 Culture] per [3] population [in all cities]", "[+1 Culture] from all [Faith] buildings <in cities with at least [5] [Followers of this Religion]>"]
+    },
+	{
+        "name": "Hedonism-Nihilism",
+        "type": "Pantheon",
+        "uniques": ["[+100]% Natural religion spread [in all cities]","[-80]% [Happiness] from every follower, up to [-20]% <when not at war>",
+                    "[+1 Gold] [in all cities]","[-1 Food, -5 Production, +1 Gold, +2 Culture] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
+                    "[+2 Faith] [in all cities] <during a Golden Age>","[-2 Happiness, -3 Faith] from every [Dyes]","[-8 Food, -7 Culture] from every [Crab]"]
     }
   ]
