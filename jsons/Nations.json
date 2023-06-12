@@ -23,8 +23,7 @@
 		"outerColor": [255,128,0],
 		"innerColor": [255,255,0], 
 		"uniqueName": "Domain Rule",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [15] turns.",
-			    "[+1 Science] from [All] tiles [in all cities]", "Starts with [Construction]","Starts with [Currency]",
+		"uniques": ["[+1 Science] from [All] tiles [in all cities]", "Starts with [Construction]","Starts with [Currency]",
 			    "[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory",
 			    "Military Units gifted from City-States start with [+100] XP", "[-25]% Culture cost of adopting new Policies", 
 			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States",
@@ -278,7 +277,7 @@
 		"innerColor": [255,0,255],
 
 		"uniqueName": "Union of States",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.","[+5]% [Science] <while the empire is happy>",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [15] turns.","[+5]% [Science] <while the empire is happy>",
 			   "Cannot build [Settler] units","[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Happiness, +1 Food, +1 Production] [in this city]"],
 
 		"cities": ["Ceygoa"]
