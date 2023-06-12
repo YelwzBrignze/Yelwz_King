@@ -1,25 +1,28 @@
 [
 	{
 		"name": "Saludo Twin Princesses",
-		"unitType": "Ranged Hero",
+		"unitType": "Archery",
+		"requiredTech": "Education",
 		"uniqueTo": "Salumi",
 		"strength": 40,
 		"rangedStrength": 20,
-		"uniques": ["Can start an [12]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
+		"promotions": ["Great Generals I","Logistics","Cover I"],
+		"attackSound": "lshit",
 		"movement": 18
 	},
 	{
 		"name": "Matriarch Queen Saldrigal",
-		"unitType": "Hero",
+		"unitType": "Sword",
 		"uniqueTo": "Salumi",
 		"strength": 60,
-		"uniques": ["Can start an [22]-turn golden age", "Can construct [Holy Place] if it hasn't used other actions yet", "Can [Spread Religion] [4] times",
-			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
-			"May enter foreign tiles without open borders", "[+1] Sight", "Great Person - [Faith]", 
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", "Unbuildable", "Uncapturable",
-			"Takes your religion over the one in their birth city"],
+		"uniques": ["Limited to [3] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
+	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
 		"movement": 20,
-		"religiousStrength": 1000
+		"requiredTech": "Steel",
+		"promotions": ["Great Generals II","March","Ambush I"],
+		"attackSound": "lshit"
 	},
 	{
 		"name": "Raymond Sheen Caballero",
@@ -93,7 +96,7 @@
 		"movement": 4,
 		"strength": 50,
 		"interceptRange": 3,
-		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
 	
 		"requiredTech": "Education",
 		"promotions": ["Great Generals I","Logistics","Cover I"],
