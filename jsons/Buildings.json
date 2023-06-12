@@ -3,7 +3,7 @@
         "name": "Resource Multiplier",
         "isNationalWonder": "true",
         "cost": 500,
-        "uniques": ["Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Coal] produced","Double quantity of [Oil] produced","Double quantity of [Aluminum] produced","Double quantity of [Uranium] produced","Requires a [Palace] in this city","Will not be displayed in Civilopedia"],     
+        "uniques": ["Double quantity of [Horses] produced","Double quantity of [Iron] produced","Double quantity of [Coal] produced","Double quantity of [Oil] produced","Double quantity of [Aluminum] produced","Double quantity of [Uranium] produced","Limited to [1] per Civilization","Will not be displayed in Civilopedia"],     
     },
 	{
 		"name": "Caballero Family",
