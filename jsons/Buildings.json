@@ -129,7 +129,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"requiredTech": "Writing",
-		"uniques": ["Unsellable","Hidden when religion is disabled","May choose [1] additional belief(s) of any type when [enhancing] a religion"]
+		"uniques": ["Unsellable","Hidden when religion is disabled"]
 	},
 	{
 		"name": "Cathedral",
