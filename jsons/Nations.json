@@ -219,7 +219,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns."],
+		"uniques": ["[+100]% [Culture] from every [Museum]","Starts with [Mining]"],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
 			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
@@ -254,6 +254,34 @@
 
 		"cities": ["Saludon","Saludonio","Libro Saldos","Saludos","Villavicencio", "Medellin","Cali", "Santa Marianna", "Buenaventura", "San Andres", "Peacesee", 
 			   "Sophia", "Leticia","Sal Kristell","Sal Kristina","Paula","Libra Saldine","Baconilla","Hamburger","Duke Baloney"]
+	},
+	{
+		"name": "Ceygoa",
+		"leaderName": "Sophia Kristell & Paula Kristina Saludo",
+		"adjective": ["Salumian"],
+		"startBias": ["Plain","Hills"],
+  	        "preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity",
+
+		"startIntroPart1": "Be welcomed, beautiful queen. You lead the beatiful and joyful nation of Salumi, a country filled more women than men with great cultural and bio diversity. ...One, two, three! Three had been the attempts to break free - getting terribly punished - but with determination, Salumi emerged to a great nation. Since the start we had a ton of great political division, which brought many problems and conflicts, but despite all the troubles, Salumi ought to help other no matter what. The conflicts didn't cease until early 21st century, where the sun finally rises over Salumi to achieve greatness.",
+		"startIntroPart2": "Queen, your people want you to lead them to greatness and the princesses support you. They want you to convert them in to the best nation. Will you make the call? Can you fight and triump over the adversities of life? Can you build a civilization that can stand the pass of time of problems?",
+
+		"declaringWar": "Prepare to lose your empire of opression!",
+		"attacked": "You will see how fruitless this will be for you. Wait and see.",
+		"defeated":  "I hope you treat my people good, don´t take away their happiness. Our love is in the Saviour.",
+		"introduction":  "Namaste! Friends, you are in our hospitality. Would you want something to drink or eat?",
+		"neutralHello": "Namaste.",
+		"hateHello": "What! You come to commerce?",
+		"tradeRequest": "I come to commerce...",
+
+	        "outerColor": [127,0,255],
+		"innerColor": [255,0,255],
+
+		"uniqueName": "Union of States",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.","[+5]% [Science] <while the empire is happy>",
+			   "Cannot build [Settler] units","[+1 Faith, +1 Culture, +1 Gold, +1 Science, +1 Happiness, +1 Food, +1 Production] [in this city]"],
+
+		"cities": ["Ceygoa"]
 	},
 	//CityStates
 	{
