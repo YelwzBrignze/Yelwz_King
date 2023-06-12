@@ -1,3 +1,2 @@
-# RSCiv-Collection
-Fullysia - Amethyst Mines grants Gems
-Suzainswellia - Boswellia Farm grants Incense
+# Colziand_Brignze
+Colziand Brignze is the ultimate mod made by ColziandKing and YelwzBrignze.
