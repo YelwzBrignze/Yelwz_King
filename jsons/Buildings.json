@@ -79,7 +79,7 @@
 		"science": 1,
 		"maintenance": 3,
 		"uniques": ["New [Military] units start with [200] Experience [in this city]","Destroyed when the city is captured",
-			    "All newly-trained [relevant] units [in this city] receive the [Shock III] promotion"
+			    "All newly-trained [relevant] units [in this city] receive the [Shock III] promotion"],
 		"requiredTech": "Bronze Working"
 	},
 	{
