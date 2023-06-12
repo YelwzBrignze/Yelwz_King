@@ -770,3 +770,15 @@
         "uniques": ["[+1 Food, +1 Science, +1 Culture] [in this city]"]
     }
   ]
+{
+	  	"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniqueTo": "Salumi",
+		"uniques": ["Can start an [8]-turn golden age",
+			"Can construct [Oracle]",
+			"Can construct [Citadel]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"],
+		"movement": 3
+	},
