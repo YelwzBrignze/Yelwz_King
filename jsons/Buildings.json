@@ -75,6 +75,7 @@
 	},
 	{
 		"name": "Stronghold",
+		"cost": 100,
 		"hurryCostModifier": 35,
 		"gold": 1,
 		"science": 1,
@@ -330,6 +331,7 @@
   {
 		"name": "Bazaar",
 		"requiredBuilding": "Market",
+	  	"cost": 50,
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
