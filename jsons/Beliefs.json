@@ -27,13 +27,6 @@
     ]
   },
 	{
-        "name": "Liturgical Chanting",
-        "type": "Follower",
-        "uniques": ["[+2 Culture, +1 Happiness] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
-                    "[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [9] [Followers of this Religion]>",
-		    "May choose [1] additional belief(s) of any type when [enhancing] a religion"]
-    },
-	{
         "name": "Work Ethic",
         "type": "Enhancer"
         "uniques": ["[+2 Production, +1 Gold] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
@@ -52,37 +45,48 @@
                     "May choose [1] additional belief(s) of any type when [enhancing] a religion"]
     },
 	{
-        "name": "Holy Iconography",
-        "type": "Follower",
-        "uniques": ["[+2 Gold, +2 Culture, +1 Faith] from every [Dyes]","[+2 Gold, +2 Culture, +2 Faith] from every [Incense]",
-                    "[+1 Culture] per [3] population [in all cities]", "[+1 Culture] from all [Faith] buildings <in cities with at least [5] [Followers of this Religion]>"]
-    },
-	{
         "name": "Icon de Hedo-Nihilism",
         "type": "Pantheon",
         "uniques": ["[+100]% Natural religion spread [in all cities]","[-80]% [Happiness] from every follower, up to [-20]% <when not at war>",
                     "[+1 Gold] [in all cities]","[-1 Food, -5 Production, +1 Gold, +2 Culture] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
                     "[+2 Faith] [in all cities] <during a Golden Age>","[-2 Happiness, -3 Faith] from every [Dyes]","[-8 Food, -7 Culture] from every [Crab]"]
     },
-//Removed//
+//Follower//
+	{
+        "name": "Liturgical Chanting",
+        "type": "Follower",
+        "uniques": ["[+2 Culture, +1 Happiness] from all [Faith] buildings <in cities with at least [4] [Followers of this Religion]>",
+                    "[+1 Faith, +1 Gold] from all [Culture] buildings <in cities with at least [9] [Followers of this Religion]>",
+		    "May choose [1] additional belief(s) of any type when [enhancing] a religion"]
+    },
+	{
+        "name": "Holy Iconography",
+        "type": "Follower",
+        "uniques": ["[+2 Gold, +2 Culture, +1 Faith] from every [Dyes]","[+2 Gold, +2 Culture, +2 Faith] from every [Incense]",
+                    "[+1 Culture] per [3] population [in all cities]", "[+1 Culture] from all [Faith] buildings <in cities with at least [5] [Followers of this Religion]>"]
+    },
 {
         "name": "Cathedrals",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]",
+		"[+10]% Natural religion spread [in all cities]","[+1 Faith, +1 Production] for each global city following this religion"]
     },
 	{
         "name": "Monasteries",
         "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]",
+		"[+10]% Natural religion spread [in all cities]","[+2 Gold] for each global city following this religion"]
     },
     {
         "name": "Mosques",
         "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]",
+		"[+10]% Natural religion spread [in all cities]","[+2 Food] for each global city following this religion"]
     },
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]","Will not be displayed in Civilopedia", "Will not be chosen for new games"]
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]",
+		"[+10]% Natural religion spread [in all cities]","[+2 Culture] for each global city following this religion"]
     }
   ]
