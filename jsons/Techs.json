@@ -1,13 +1,18 @@
 [
+	{
+				"name": "Ancient Starter Pack",
+				"row": 1,
+				"uniques": ["Only available <after discovering [AI Mechanics]>","AI Exclusive"]
+			}
   {
-				"name": "Machinery",
+				"name": "Classical Starter Pack",
 				"row": 8,
 				"prerequisites": ["Guilds","Engineering"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 {
-				"name": "Machinery",
+				"name": "Medieval Starting Pack",
 				"row": 8,
 				"prerequisites": ["Guilds","Engineering"],
 				"uniques": ["Improves movement speed on roads"],
