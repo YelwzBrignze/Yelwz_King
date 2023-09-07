@@ -45,13 +45,13 @@
 	},
 {
 		"name": "Knivex",
-		"uniqueTo": "Colziand"
+		"uniqueTo": "Ceygoa",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 60,
 		"interceptRange": 1,
 		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
-	
+		"uniqueText": [Originally from Colziand, this unit is a gift from King Raymond],
 		"requiredTech": "Steel",
 		"promotions": ["Drill III","Formation II","Cover II"],
 		"attackSound": "lshit"
@@ -63,7 +63,7 @@
 {
 		"name": "Pillager",
 		"unitType": "Archery",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Jeoxwin",
 		"movement": 3,
 		"strength": 14,
 		"rangedStrength": 15,
@@ -78,7 +78,7 @@
 		"name": "Vindicator",
 		"unitType": "Sword",
 		"replaces": "Berserker",
-		"uniqueTo": "Barbarians",
+		"uniqueTo": "Kolmeiah",
 		"movement": 3,
 		"strength": 22,
 		"cost": 120,
