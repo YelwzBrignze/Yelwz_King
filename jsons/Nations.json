@@ -267,7 +267,7 @@
 		"tradeRequest": "I  thought you might be intested in this...",
 
 	        "outerColor": [0,255,255],
-		"innerColor": [128,255,0],
+		"innerColor": [0,102,0],
 
 		"uniqueName": "Jeoxwii Spirit",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.","Provides [1] [Marble]","Provides [1] [Stone]",
