@@ -34,7 +34,7 @@
 		"name": "Salumi",
 		"leaderName": "Sophia Kristell & Paula Kristina Saludo",
 		"adjective": ["Salumian"],
-		"startBias": ["Plain","Hills"],
+		"startBias": ["Plain"],
   	        "preferredVictoryType": "Cultural",
 		"favoredReligion": "Christianity",
 
@@ -67,7 +67,7 @@
 		"adjective": ["Salveolites"],
 		"startBias": ["Hill"],
   	        "preferredVictoryType": "Domination",
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Islam",
 
 		"startIntroPart1": "Greetings my lord, its a great honor to serve you. You once conquered the west with the Masters of iron and Heroine/Baroness of steel. You extracted precious minerals for war and jewelry, you did all this to hide your sadness and weakness. Then the Rule conquered us and showed the error of our ways, we supported them fully and our kingdom rose more.",
 		"startIntroPart2": "My king, what do you think? Should we once more conquest the lands far from the land of our fathers?",
@@ -99,7 +99,7 @@
 		"leaderName": "Uzaine Anne Caballero",
 		"adjective": ["Swells"],
 		"startBias": ["Coast"],
-  	        "preferredVictoryType": "Diplomatic",
+  	        "preferredVictoryType": "Scientific",
 		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Grand governor of the suzerain Colziand. We are honored of your presence and the leader is please to meet you again since college.",
@@ -131,7 +131,7 @@
 		"leaderName": "Ullysia Ryden Gozanlithozz",
 		"adjective": ["Fullysian"],
 		"startBias": ["Grassland","Forest"],
-  	        "preferredVictoryType": "Diplomatic",
+  	        "preferredVictoryType": "Religious",
 		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Feared woman with the strength like men. You Ullysia from Colziand is fierce in battles but at what cost? You do it so that it will end, war destroys each other but peace helps each other.",
@@ -198,7 +198,7 @@
 		"name": "Austria",
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"],
-		"startBias": ["Hill"],
+		"startBias": ["Desert"],
 		"preferredVictoryType": "Diplomatic",
 
         "startIntroPart1": "",
@@ -227,10 +227,10 @@
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold",]
     },
 		{
-		"name": "Jeoxwin",
-		"leaderName": "Sophia Kristell & Paula Kristina Saludo",
-		"adjective": ["Salumian"],
-		"startBias": ["Plain","Hills"],
+		"name": "Kolmeiah",
+		"leaderName": "Aethaniel Ziander Kadllero",
+		"adjective": ["Kolmeiahn"],
+		"startBias": ["Grassland","Coast"],
   	        "preferredVictoryType": "Cultural",
 		"favoredReligion": "Christianity",
 
@@ -248,17 +248,43 @@
 	        "outerColor": [127,0,255],
 		"innerColor": [255,0,255],
 
-		"uniqueName": "Matriarch Heart",
-		"uniques": ["[+100]% [Culture] from every [Museum]","Starts with [Mining]","[+5]% [Science] <while the empire is happy>"],
+		"uniqueName": "Kolmeiahn World",
+		"uniques": ["\"Borrows\" city names from other civilizations in the game"],
 
-		"cities": ["Saludon","Saludonio","Libro Saldos","Saludos","Villavicencio", "Medellin","Cali", "Santa Marianna", "Buenaventura", "San Andres", "Peacesee", 
-			   "Sophia", "Leticia","Sal Kristell","Sal Kristina","Paula","Libra Saldine","Baconilla","Hamburger","Duke Baloney"]
+		"cities": ["Kolmeiah","Coola","Indor"]
+	},
+		{
+		"name": "Jeoxwin",
+		"leaderName": "Jaine Dolxwin",
+		"adjective": ["Jeoxwii"],
+		"startBias": ["Tundra"],
+  	        "preferredVictoryType": "Cultural",
+		"favoredReligion": "Judaism",
+
+		"startIntroPart1": "Be welcomed, beautiful queen. You lead the beatiful and joyful nation of Salumi, a country filled more women than men with great cultural and bio diversity. ...One, two, three! Three had been the attempts to break free - getting terribly punished - but with determination, Salumi emerged to a great nation. Since the start we had a ton of great political division, which brought many problems and conflicts, but despite all the troubles, Salumi ought to help other no matter what. The conflicts didn't cease until early 21st century, where the sun finally rises over Salumi to achieve greatness.",
+		"startIntroPart2": "Queen, your people want you to lead them to greatness and the princesses support you. They want you to convert them in to the best nation. Will you make the call? Can you fight and triump over the adversities of life? Can you build a civilization that can stand the pass of time of problems?",
+
+		"declaringWar": "Prepare to lose your empire of opression!",
+		"attacked": "You will see how fruitless this will be for you. Wait and see.",
+		"defeated":  "I hope you treat my people good, don´t take away their happiness. Our love is in the Saviour.",
+		"introduction":  "Greetings! This is Salumi, our wonderful land. Want a kiss?",
+		"neutralHello": "Hello There.",
+		"hateHello": "Assh, what do you want?",
+		"tradeRequest": "I  thought you might be intested in this...",
+
+	        "outerColor": [127,0,255],
+		"innerColor": [255,0,255],
+
+		"uniqueName": "Jeoxwii Spirit",
+		"uniques": ["\"Borrows\" city names from other civilizations in the game"],
+
+		"cities": ["Jeoxwin","Keoland","Heirland"]
 	},
 	{
 		"name": "Ceygoa",
 		"leaderName": "Sophia Kristell & Paula Kristina Saludo",
 		"adjective": ["Salumian"],
-		"startBias": ["Plain","Hills"],
+		"startBias": ["Coast"],
   	        "preferredVictoryType": "Cultural",
 		"favoredReligion": "Christianity",
 
