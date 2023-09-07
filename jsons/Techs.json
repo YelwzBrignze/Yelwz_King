@@ -1,7 +1,12 @@
 [
 	{
-				"name": "Ancient Era Pack",
+				"name": "Prehistory Era Pack",
 				"row": 1,
+				"uniques": [""]
+			},
+	{
+				"name": "Ancient Era Pack",
+				"row": 3,
 				"uniques": [""]
 			},
   {
