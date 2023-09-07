@@ -239,8 +239,8 @@
 		"hateHello": "Assh, what do you want?",
 		"tradeRequest": "I  thought you might be intested in this...",
 
-	        "outerColor": [127,0,255],
-		"innerColor": [255,0,255],
+	        "outerColor": [0,0,0],
+		"innerColor": [255,255,0],
 
 		"uniqueName": "Kolmeiahn World",
 		"uniques": ["Starts with [Prehistory Era Pack]","\"Borrows\" city names from other civilizations in the game","Provides [1] [Citrus]","Provides [1] [Sugar]"],
@@ -266,8 +266,8 @@
 		"hateHello": "Assh, what do you want?",
 		"tradeRequest": "I  thought you might be intested in this...",
 
-	        "outerColor": [127,0,255],
-		"innerColor": [255,0,255],
+	        "outerColor": [128,255,0],
+		"innerColor": [0,255,255],
 
 		"uniqueName": "Jeoxwii Spirit",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.","Provides [1] [Marble]","Provides [1] [Stone]",
@@ -296,8 +296,8 @@
 		"hateHello": "What! You come to commerce?",
 		"tradeRequest": "I come to commerce...",
 
-	        "outerColor": [127,0,255],
-		"innerColor": [255,0,255],
+	        "outerColor": [0,153,76],
+		"innerColor": [255,51,153],
 
 		"uniqueName": "Union of States",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [15] turns.","[+5]% [Science] <while the empire is happy>",
