@@ -279,7 +279,7 @@
 	},
 	{
 		"name": "Ceygoa",
-		"leaderName": "Sophia Kristell & Paula Kristina Saludo",
+		"leaderName": "High Magistrate like President",
 		"adjective": ["Ceygoa"],
 		"startBias": ["Coast"],
   	        "preferredVictoryType": "Cultural",
@@ -296,8 +296,8 @@
 		"hateHello": "What! You come to commerce?",
 		"tradeRequest": "I come to commerce...",
 
-	        "outerColor": [0,153,76],
-		"innerColor": [255,51,153],
+	        "outerColor": [255,51,153],
+		"innerColor": [0,153,76],
 
 		"uniqueName": "Union of States",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [15] turns.","[+5]% [Science] <while the empire is happy>",
