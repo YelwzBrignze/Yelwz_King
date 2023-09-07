@@ -85,7 +85,7 @@
 		"innerColor": [0,0,255],
 
 		"uniqueName": "Iron Forged Will",
-		"uniques": ["Starts with [Mining]","Starts with [Bronze Working]","[+1 Production] from [All] tiles [in all cities]",
+		"uniques": ["Starts with [Bronze Working]","[+1 Production] from [All] tiles [in all cities]",
 			   "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[-25]% Culture cost of natural border growth [in all cities]",
 			   "[+3 Production] from every [Strategic resource]","[+20]% Production when constructing [All] wonders [in all cities]",
 			   "[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast","[-20]% Culture cost of adopting new Policies"],
@@ -149,7 +149,7 @@
 		"innerColor": [255,255,255],
 
 		"uniqueName": "Fullysianth Song",
-		"uniques": ["Starts with [Animal Husbandry]","Starts with [The Wheel]","[+1 Faith] from [All] tiles [in all cities]",
+		"uniques": ["Starts with [Animal Husbandry]","[+1 Faith] from [All] tiles [in all cities]",
 			   "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>","[-20]% Culture cost of adopting new Policies",
 			   "Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
 
@@ -181,7 +181,7 @@
 		"uniqueName": "Blackadder Dynasty & Baldrick's",
 		"uniques": ["Starts with [Sailing]", "Gain a free [Amphitheater] [in capital]","[+2] Movement <for [Water] units>",
                			"[+50]% Production when constructing [All] buildings [in all cities] <in [River] tiles>",
-			    "[+5]% [Production] <while the empire is happy>","[+5]% [Science] <when between [20] and [200] Happiness>","[+5]% [Production] <when between [20] and [200] Happiness>"],
+			    "[+5]% [Production] <while the empire is happy>","[+5]% [Science] <when between [20] and [200] Happiness>"],
     
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
@@ -243,7 +243,8 @@
 		"innerColor": [255,255,0],
 
 		"uniqueName": "Kolmeiahn World",
-		"uniques": ["Starts with [Prehistory Era Pack]","\"Borrows\" city names from other civilizations in the game","Provides [1] [Citrus]","Provides [1] [Sugar]"],
+		"uniques": ["\"Borrows\" city names from other civilizations in the game","Provides [1] [Citrus]","Provides [1] [Sugar]",
+			"[+5]% [Production] <when between [20] and [200] Happiness>","Starts with [The Wheel]","Starts with [Mining]"],
 
 		"cities": ["Kolmeiah","Coola","Indor"]
 	},
@@ -271,7 +272,7 @@
 
 		"uniqueName": "Jeoxwii Spirit",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [20] turns.","Provides [1] [Marble]","Provides [1] [Stone]",
-			"Starts with [Prehistory Era Pack]","\"Borrows\" city names from other civilizations in the game",
+			"\"Borrows\" city names from other civilizations in the game",
 			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
@@ -302,7 +303,7 @@
 		"uniqueName": "Union of States",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [15] turns.","[+5]% [Science] <while the empire is happy>",
 			   "Cannot build [Settler] units","[+1 Culture, +1 Gold, +1 Science, +1 Happiness, +1 Food, +1 Production] [in this city]",
-				"Starts with [Prehistory Era Pack]","[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
+				"[+20]% Strength <when fighting units from a Civilization with more Cities than you>",
 				"Provides [1] [Incense]","Provides [1] [Gems]"],
 
 		"cities": ["Ceygoa"]
