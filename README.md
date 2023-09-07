@@ -1,6 +1,14 @@
 # Colziand_Brignze
 Colziand Brignze is the ultimate mod made by ColziandKing and YelwzBrignze.
 
+[
+	{
+				"name": "Prehistory Era Pack",
+				"row": 1,
+				"uniques": ["[+1 Faith] [in all cities]"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},
+]
 {
 				"name": "Ancient Era Pack",
 				"row": 3,
