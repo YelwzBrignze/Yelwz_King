@@ -28,7 +28,7 @@
 		"name": "Population Ruin",
 		"cost": 100,
 		"hurryCostModifier": 35,
-		"uniques": ["Limited to [1] per Civilization","[+1] population [in this city]"]]
+		"uniques": ["Limited to [1] per Civilization","[+1] population [in this city]"]
 	},
 	{
 		"name": "Gold Ruin",
@@ -52,7 +52,7 @@
 		"name": "Map Ruin",
 		"cost": 100,
 		"hurryCostModifier": 35,
-		"uniques": ["Limited to [1] per Civilization",reveal tiles up to [6] tiles away with [100]% chance"]
+		"uniques": ["Limited to [1] per Civilization","reveal tiles up to [6] tiles away with [100]% chance"]
 	},
 	{
 		"name": "Holy Symbol Ruin",
