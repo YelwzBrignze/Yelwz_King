@@ -23,7 +23,7 @@
 		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": ["Pottery", "The Wheel"],
 		"aiMajorCivBonusStartingUnits": ["Settler", "Worker", "Scout", "Era Starting Unit", "Era Starting Unit", "Era Starting Unit"],
-		"aiCityStateBonusStartingUnits": ["Settler",],
+		"aiCityStateBonusStartingUnits": ["Settler","Great General","Great Prophet","Great Engineer","Great Merchant","Great Scientist","Great Artist"],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 5,
