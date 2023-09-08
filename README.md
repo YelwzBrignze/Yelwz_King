@@ -80,3 +80,34 @@ Colziand Brignze is the ultimate mod made by ColziandKing and YelwzBrignze.
   }
  ]
 [128,255,0]
+[
+	{
+		"name": "God",
+		"baseHappiness": 15,
+		"extraHappinessPerLuxury": 1,
+		"researchCostModifier": 0.9,
+		"unitCostModifier": 0.5,
+		"unitSupplyBase": 10,
+		"unitSupplyPerCity": 3,
+		"buildingCostModifier": 0.5,
+		"policyCostModifier": 0.5,
+		"unhappinessModifier": 0.4,
+		"barbarianBonus": 0.75,
+		"barbarianSpawnDelay": 5,
+		"playerBonusStartingUnits": ["Settler", "Settler", "Worker", "Scout", "Era Starting Unit"], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
+		"aiCityGrowthModifier": 1.6, // that is to say it'll take them 1.6 times as long to grow the city
+		"aiUnitCostModifier": 1.75,
+		"aiBuildingCostModifier": 1.6,
+		"aiWonderCostModifier": 1.6,
+		"aiBuildingMaintenanceModifier": 1,
+		"aiUnitMaintenanceModifier": 1,
+		"aiUnitSupplyModifier": 0,
+		"aiFreeTechs": ["Pottery","The Wheel"],
+		"aiMajorCivBonusStartingUnits": ["Settler", "Worker", "Scout", "Era Starting Unit", "Era Starting Unit", "Era Starting Unit"],
+		"aiCityStateBonusStartingUnits": [],
+		"aiUnhappinessModifier": 1,
+		"aisExchangeTechs": false,
+		"turnBarbariansCanEnterPlayerTiles": 5,
+		"clearBarbarianCampReward": 50
+	}
+]
