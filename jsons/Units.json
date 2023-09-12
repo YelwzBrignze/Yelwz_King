@@ -6,7 +6,7 @@
 		"uniqueTo": "Salumi",
 		"strength": 40,
 		"rangedStrength": 20,
-		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
 		"promotions": ["Great Generals I","Logistics","Cover I"],
 		"attackSound": "lshit",
 		"movement": 18
@@ -16,7 +16,7 @@
 		"unitType": "Sword",
 		"uniqueTo": "Salumi",
 		"strength": 60,
-		"uniques": ["Limited to [3] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
 	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
 	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
 		"movement": 20,
@@ -31,7 +31,7 @@
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Limited to [3] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
 	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
 	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
 	
@@ -50,7 +50,7 @@
 		"movement": 2,
 		"strength": 60,
 		"interceptRange": 1,
-		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
 		"uniqueText": [Originally from Colziand, this unit is a gift from King Raymond],
 		"requiredTech": "Steel",
 		"promotions": ["Drill III","Formation II","Cover II"],
@@ -96,7 +96,7 @@
 		"movement": 4,
 		"strength": 50,
 		"interceptRange": 3,
-		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
 	
 		"requiredTech": "Education",
 		"promotions": ["Great Generals I","Logistics","Cover I"],
@@ -160,7 +160,7 @@
 		"movement": 3,
 		"strength": 80,
 		"interceptRange": 2,
-		"uniques": ["Limited to [3] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
 	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
 	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
 	
@@ -180,7 +180,7 @@
 		"movement": 2,
 		"strength": 40,
 		"interceptRange": 1,
-		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
 	
 		"requiredTech": "Chivalry",
 		"requiredBuilding": "Blackadder Clan",
@@ -859,5 +859,18 @@
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
+	},
+	//Very Destructive
+{
+		"name": "Nucleaus Point",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "Construction",
+		"uniques": ["Limited to [1] per Civilization","Nuclear weapon of Strength [10]","Blast radius [10]"],
+		"attackSound": "nuke"
 	}
 ]
