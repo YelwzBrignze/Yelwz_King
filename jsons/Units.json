@@ -131,7 +131,6 @@
 		"obsoleteTech": "Archery",
 		"upgradesTo": "Archer",
 		"attackSound": "arrow"
-		]
 	},
 	{
 		"name": "Lion",
