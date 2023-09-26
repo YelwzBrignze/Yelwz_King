@@ -4,8 +4,8 @@
 		"unitType": "Archery",
 		"requiredTech": "Education",
 		"uniqueTo": "Salumi",
-		"strength": 40,
-		"rangedStrength": 20,
+		"strength": 10,
+		"rangedStrength": 5,
 		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
 		"promotions": ["Great Generals I","Logistics","Cover I"],
 		"attackSound": "lshit",
@@ -15,11 +15,11 @@
 		"name": "Matriarch Queen Saldrigal",
 		"unitType": "Sword",
 		"uniqueTo": "Salumi",
-		"strength": 60,
+		"strength": 20,
 		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
 	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
 	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
-		"movement": 20,
+		"movement": 5,
 		"requiredTech": "Steel",
 		"promotions": ["Great Generals II","March","Ambush I"],
 		"attackSound": "lshit"
@@ -29,7 +29,7 @@
 		"uniqueTo": "Colziand"
 		"unitType": "Sword",
 		"movement": 3,
-		"strength": 80,
+		"strength": 40,
 		"interceptRange": 2,
 		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
 	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
@@ -45,10 +45,9 @@
 	},
 {
 		"name": "Knivex",
-		"uniqueTo": "Ceygoa",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 60,
+		"strength": 10,
 		"interceptRange": 1,
 		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
 		"uniqueText": [Originally from Colziand, this unit is a gift from King Raymond],
@@ -91,10 +90,10 @@
 	},
 {
 		"name": "Royalloom Kingsman",
-		"rangedStrength": 50,
+		"rangedStrength": 10,
 		"unitType": "Archery",
 		"movement": 4,
-		"strength": 50,
+		"strength": 10,
 		"interceptRange": 3,
 		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
 	
@@ -105,6 +104,48 @@
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
 				"imageSize": 256 }]
+	},
+		 /* Prehistoric */
+	{
+		"name": "Giant",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Obsidian Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Archery",
+		"upgradesTo": "Archer",
+		"attackSound": "arrow"
+		]
+	},
+	{
+		"name": "Lion",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 9,
+		"cost": 45,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
 	},
    /* Super Unit */
    
@@ -158,7 +199,7 @@
 		"uniqueTo": "Britain"
 		"unitType": "Mounted",
 		"movement": 3,
-		"strength": 80,
+		"strength": 40,
 		"interceptRange": 2,
 		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
 	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
@@ -178,7 +219,7 @@
 		"uniqueTo": "Britain"
 		"unitType": "Mounted",
 		"movement": 2,
-		"strength": 40,
+		"strength": 20,
 		"interceptRange": 1,
 		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
 	
@@ -192,28 +233,7 @@
 				"imageSize": 256 }]
 	},
   //Ancient
-  {
-		"name": "Maori Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["Haka War Dance"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Jaguar",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["[Jaguar] ability","Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
+  
   {
 		"name": "Bowman",
 		"unitType": "Archery",
