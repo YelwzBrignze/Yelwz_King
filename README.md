@@ -111,3 +111,39 @@ Colziand Brignze is the ultimate mod made by ColziandKing and YelwzBrignze.
 		"clearBarbarianCampReward": 50
 	}
 ]
+{
+		"name": "Maori Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["Haka War Dance"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Jaguar",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+ {
+		"name": "War Chariot",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "arrow"
+	},
+ 
