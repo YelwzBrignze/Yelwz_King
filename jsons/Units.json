@@ -62,7 +62,6 @@
 {
 		"name": "Pillager",
 		"unitType": "Archery",
-		"uniqueTo": "Jeoxwin",
 		"movement": 3,
 		"strength": 14,
 		"rangedStrength": 15,
@@ -77,7 +76,6 @@
 		"name": "Vindicator",
 		"unitType": "Sword",
 		"replaces": "Berserker",
-		"uniqueTo": "Kolmeiah",
 		"movement": 3,
 		"strength": 22,
 		"cost": 120,
