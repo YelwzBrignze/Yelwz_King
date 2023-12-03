@@ -5,7 +5,7 @@
 		"movement": 2,
 		"strength": 10,
 		"interceptRange": 1,
-		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+		"uniques": ["Limited to [12] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
 		"uniqueText": [Originally from Colziand, this unit is a gift from King Raymond],
 		"requiredTech": "Steel",
 		"promotions": ["Drill III","Formation II","Cover II"],
