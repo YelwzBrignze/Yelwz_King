@@ -1270,3 +1270,184 @@
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
     }
+
+	{
+		"name": "Saludo Twin Princesses",
+		"unitType": "Archery",
+		"requiredTech": "Education",
+		"uniqueTo": "Salumi",
+		"strength": 10,
+		"rangedStrength": 5,
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
+		"promotions": ["Great Generals I","Logistics","Cover I"],
+		"attackSound": "lshit",
+		"movement": 18
+	},
+	{
+		"name": "Matriarch Queen Saldrigal",
+		"unitType": "Sword",
+		"uniqueTo": "Salumi",
+		"strength": 20,
+		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
+	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
+		"movement": 5,
+		"requiredTech": "Steel",
+		"promotions": ["Great Generals II","March","Ambush I"],
+		"attackSound": "lshit"
+	},
+	{
+		"name": "Raymond Sheen Caballero",
+		"uniqueTo": "Colziand"
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 40,
+		"interceptRange": 2,
+		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
+	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+	
+		"requiredTech": "Steel",
+		"promotions": ["Great Generals II","March","Ambush I"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
+	//Very Destructive
+{
+		"name": "Nucleaus Point",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "Construction",
+		"uniques": ["Limited to [1] per Civilization","Nuclear weapon of Strength [10]","Blast radius [10]"],
+		"attackSound": "nuke"
+	},
+{
+		"name": "Pillager",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 14,
+		"rangedStrength": 15,
+		"replaces": "Crossbowman",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Vindicator",
+		"unitType": "Sword",
+		"replaces": "Berserker",
+		"movement": 3,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+{
+		"name": "Royalloom Kingsman",
+		"rangedStrength": 10,
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 10,
+		"interceptRange": 3,
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"],
+	
+		"requiredTech": "Education",
+		"promotions": ["Great Generals I","Logistics","Cover I"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
+		 /* Prehistoric */
+	{
+		"name": "Giant",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Obsidian Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 20,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Archery",
+		"upgradesTo": "Archer",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Lion",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 9,
+		"cost": 45,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
+		"name": "Edmund Blackadder",
+		"uniqueTo": "Britain"
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 40,
+		"interceptRange": 2,
+		"uniques": ["Limited to [1] per Civilization","May capture killed [Infantry] units <with [75]% chance>",
+	        "May capture killed [Armor] units <with [75]% chance>","[+20]% Strength <vs [Infantry] units>","[+20]% Strength <vs [Armor] units> <when attacking>",
+	        "Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+	
+		"requiredTech": "Chivalry",
+		"requiredBuilding": "Blackadder Clan",
+		"promotions": ["Blitz","Woodsman","Charge"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
+{
+		"name": "Baldrick",
+		"uniqueTo": "Britain"
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 20,
+		"interceptRange": 1,
+		"uniques": ["Limited to [1] per Civilization","Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]"]
+	
+		"requiredTech": "Chivalry",
+		"requiredBuilding": "Blackadder Clan",
+		"promotions": ["Amphibious","Medic","Medic II"],
+		"attackSound": "lshit"
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Darth Vader",
+				"imageSize": 256 }]
+	},
