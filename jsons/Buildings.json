@@ -99,7 +99,7 @@
 	},
 	{
 		"name": "Monastery",
-		"cost": 1,
+		"cost": 0,
 		"culture": 2,
 		"faith": 2,
 		"cost": 40,
@@ -107,42 +107,42 @@
 		"hurryCostModifier": 40,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Provides [1] [Porcelain]","Provides [1] [Jewelry]",
+			"Provides [1] [Porcelain]","Provides [1] [Jewelry]","Unbuildable",
 			"Doubles Gold given to enemy if city is captured","Unsellable",
 			"Hidden when religion is disabled","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "Mosque",
-		"cost": 1,
+		"cost": 0,
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"requiredTech": "Drama and Poetry",
-		"uniques": ["Unsellable","Hidden when religion is disabled"]
+		"uniques": ["Unsellable","Unbuildable","Hidden when religion is disabled"]
 	},
 	{
 		"name": "Pagoda",
-		"cost": 1,
+		"cost": 0,
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"requiredTech": "Writing",
-		"uniques": ["Unsellable","Hidden when religion is disabled"]
+		"uniques": ["Unsellable","Unbuildable","Hidden when religion is disabled"]
 	},
 	{
 		"name": "Cathedral",
-		"cost": 1,
+		"cost": 0,
 		"faith": 1,
 		"culture": 3,
 		"happiness": 1,
 		"requiredTech": "Philosophy",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unsellable","Hidden when religion is disabled"]
+		"uniques": ["Unsellable","Unbuildable","Hidden when religion is disabled"]
 	},
 	//Special
 	{
@@ -249,6 +249,16 @@
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+33]% [Science] in this city"],
 		"requiredTech": "Education"
 	},
+	{
+		"name": "Merchant's Guild",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 10},
+		"happiness": 3,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 75},
+		"requiredBuilding": "Market",
+		"requiredTech": "Currency"
+	},
 	//Normie
 {
 		"name": "Stele",
@@ -307,6 +317,18 @@
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]", 
+			"May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]", 
+			"May buy [Pagoda] buildings for [150] [Faith] [in cities following this religion]", 
+			"May buy [Mosque] buildings for [150] [Faith] [in cities following this religion]", "Destroyed when the city is captured"]
 	},
   {
 		"name": "Burial Tomb",
