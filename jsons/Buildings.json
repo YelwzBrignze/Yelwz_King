@@ -259,6 +259,23 @@
 		"requiredBuilding": "Market",
 		"requiredTech": "Currency"
 	},
+	{
+		"name": "Concepts Guild",
+		"gold": 7,
+		"food": 7,
+		"science": 7,
+		"specialistSlots": {"Engineer": 10},
+		"happiness": 7,
+		"production": 7,
+		"culture": 7,
+		"faith": 7,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"production": 75},
+		"requiredBuilding": "University",
+		"uniques": ["[+75]% Great Person generation [in all cities]", "Free Great Person"] 
+		"requiredTech": "Scientific Theory"
+	},
+	
 	//Normie
 {
 		"name": "Stele",
